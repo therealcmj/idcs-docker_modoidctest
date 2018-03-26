@@ -27,7 +27,7 @@ HTTP_LISTEN_PORT=8080
 OIDC_REDIRECT_URL=http://localhost:${HTTP_LISTEN_PORT}/protected/redirect_uri/
 
 # generate a random passphrase for the cookies
-OIDC_PASSPHRASE=`echo $RANDOM | md5sum | awk '{print $1}'`
+OIDC_PASSPHRASE=`echo $RANDOM | md5 | awk '{print $1}'`
 
 # this is only used by the CLI script
 IDCS_APPNAME="IDCS_Test"
