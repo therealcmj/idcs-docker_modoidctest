@@ -39,4 +39,4 @@ OIDC_REDIRECT_URL=http://localhost:${HTTP_LISTEN_PORT}/protected/redirect_uri/
 OIDC_PASSPHRASE=`echo $RANDOM | md5 | awk '{print $1}'`
 
 # this is only used by the CLI script
-IDCS_APPNAME="IDCS_Test"
+IDCS_APPNAME="Docker_OIDCTest"
