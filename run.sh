@@ -13,7 +13,7 @@ fi
 
 # docker run --rm -it \
 docker run --rm -d \
-  -p 8080:80 \
+  -p ${HTTP_LISTEN_PORT}:80 \
   -e IDCS_SERVER_URL=${IDCS_SERVER_URL} \
   -e OIDC_REDIRECT_URL=${OIDC_REDIRECT_URL} \
   -e OIDC_CLIENT_ID=${OIDC_CLIENT_ID} \
