@@ -1,5 +1,5 @@
 
-FROM php:7.0-apache
+FROM php:apache
 MAINTAINER Chris Johnson (christopher.johnson@oracle.com)
 
 
